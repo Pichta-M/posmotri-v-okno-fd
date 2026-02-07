@@ -120,8 +120,8 @@ ol {
 }
 /* проблемы с размерами картинки*/
 .content__video-card-thumbnail {
-  height: 194px;
-  min-width: 103px;
+  height: 103px;
+  min-width: 194px;
   object-fit: contain;
   object-position: center;
 }
