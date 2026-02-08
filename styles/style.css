@@ -2,6 +2,10 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  /*Не забыть удалить бордер */
+  border: red;
+  border-style: dashed;
+  border-width: 1px;
 }
 
 html {
@@ -58,10 +62,8 @@ ol {
   flex-direction: row;
   align-items: flex-end;
   gap: 30px;
-  min-width: 1140px;
+  width: 1140px;
   padding: 133px 30px;
-}
-.result {
 }
 
 .result__video-container {
@@ -83,6 +85,13 @@ ol {
   justify-content: space-between;
 }
 
+.search-form__fieldset-title {
+  font-weight: 400;
+  line-height: 100%;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
 .content__details {
   display: flex;
   flex-direction: column;
@@ -91,11 +100,24 @@ ol {
   gap: 26px;
 }
 
+.title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 75px;
+  line-height: 94%;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
+
 .content__list-container {
   display: grid;
   flex-direction: column;
   max-height: 298px;
-  overflow: auto;
+  overflow: hidden scroll;
   gap: 30px;
 }
 
@@ -105,10 +127,26 @@ ol {
   gap: 30px;
 }
 
+.content__card-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .content__video-card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+
+.content__video-card-title {
+  width: 196px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-description-container {
@@ -117,9 +155,21 @@ ol {
   flex-grow: 1;
 }
 
+.content__video-card-description {
+  width: 196px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16.2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .content__video-card-thumbnail {
   height: 103px;
   min-width: 194px;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
