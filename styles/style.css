@@ -103,6 +103,7 @@ ol {
   align-items: center;
   width: fit-content;
   gap: 15px;
+  cursor: pointer
 }
 
 .search-form__label:has(:focus-visible) {
@@ -188,7 +189,7 @@ ol {
   width: 100%;
   overflow: auto;
   gap: 30px;
-  padding: 3px 0;
+  padding: 0 2px;
 }
 
 .content__list {
@@ -292,6 +293,7 @@ ol {
   letter-spacing: 0%;
   text-align: center;
   color: rgba(255, 255, 255, 1);
+  cursor: pointer
 }
 
 .search-form__submit-button {
@@ -321,5 +323,5 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid rgba(255, 255, 255, 1);
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
