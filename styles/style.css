@@ -184,12 +184,11 @@ ol {
 
 .content__list-container {
   display: grid;
-  flex-direction: column;
   max-height: 298px;
+  width: 100%;
   overflow: auto;
   gap: 30px;
-  padding-bottom: 2px;
-  padding-right: 3px;
+  padding: 3px 0;
 }
 
 .content__list {
@@ -198,9 +197,36 @@ ol {
   gap: 30px;
 }
 
+.content__list-item {
+  padding: 0 3px;
+}
+
 .content__card-link {
+  display: block;
   text-decoration: none;
   color: #fff;
+}
+
+.content__card-link_current {
+  background-color: rgba(84, 80, 80, 1);
+}
+
+.content__card-link:active {
+  background-color: rgba(84, 80, 80, 1);
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 1px;
+}
+
+.content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 1);
 }
 
 .content__video-card {
