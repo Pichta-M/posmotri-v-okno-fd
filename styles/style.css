@@ -2,11 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /*Не забыть удалить бордер
-  border: red;
-  border-style: dashed;
-  border-width: 1px;
-  */
 }
 
 html {
@@ -71,6 +66,7 @@ ol {
   margin-bottom: 16px;
   min-width: 711px;
   min-height: 386px;
+  position: relative;
 }
 
 .result__video {
@@ -103,7 +99,7 @@ ol {
   align-items: center;
   width: fit-content;
   gap: 15px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -190,6 +186,7 @@ ol {
   overflow: auto;
   gap: 30px;
   padding: 0 2px;
+  position: relative;
 }
 
 .content__list {
@@ -293,7 +290,7 @@ ol {
   letter-spacing: 0%;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  cursor: pointer
+  cursor: pointer;
 }
 
 .search-form__submit-button {
