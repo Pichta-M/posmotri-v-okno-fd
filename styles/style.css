@@ -65,7 +65,6 @@ ol {
 .result {
   display: grid;
   min-width: 711px;
-  height: 456px;
 }
 
 .result__video-container {
