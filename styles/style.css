@@ -268,7 +268,7 @@ ol {
   height: 103px;
   width: 194px;
   object-fit: cover;
-  object-position: right;
+  object-position: center;
 }
 
 .visually-hidden {
@@ -283,6 +283,7 @@ ol {
 
 .button {
   border-width: 1px;
+  border-style: solid;
   border-color: rgba(255, 255, 255, 1);
   background-color: transparent;
   font-family: "Fira Sans Condensed", sans-serif;
