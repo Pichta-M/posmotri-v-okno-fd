@@ -184,10 +184,9 @@ ol {
 .content__list-container {
   display: grid;
   max-height: 298px;
-  width: 100%;
+  max-width: 399px;
   overflow: auto;
   gap: 30px;
-  padding: 0 2px;
   position: relative;
 }
 
@@ -236,7 +235,7 @@ ol {
 }
 
 .content__video-card-title {
-  width: 196px;
+  width: 100%;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -248,13 +247,14 @@ ol {
 }
 
 .content__video-card-description-container {
+  max-width: 195px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
 .content__video-card-description {
-  width: 196px;
+  width: 100%;
   font-weight: 400;
   line-height: 16.2px;
   display: -webkit-box;
@@ -265,9 +265,9 @@ ol {
 
 .content__video-card-thumbnail {
   height: 103px;
-  min-width: 194px;
+  width: 194px;
   object-fit: cover;
-  object-position: center;
+  object-position: right;
 }
 
 .visually-hidden {
@@ -300,8 +300,9 @@ ol {
 }
 
 .more-button {
-  width: 100%;
+  width: 392px;
   height: 34px;
+  padding: 0;
 }
 
 .button:hover {
