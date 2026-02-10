@@ -2,9 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /*border: 1px;
-  border-color: red;
-  border-style: dotted;*/
 }
 
 html {
