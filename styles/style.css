@@ -92,6 +92,7 @@ ol {
 }
 
 .search-form__fieldset {
+  padding-top: 2px;
   border: none;
 }
 
@@ -308,7 +309,7 @@ ol {
   width: 194px;
   height: 34px;
   align-self: flex-end;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .more-button {
