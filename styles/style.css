@@ -79,6 +79,7 @@ ol {
   height: 386px;
   object-fit: cover;
   object-position: center;
+  padding-top: 4px;
 }
 
 .search-form {
