@@ -192,8 +192,8 @@ ol {
 
 .content__list-container {
   display: grid;
-  max-height: 298px;
-  max-width: 399px;
+  height: 298px;
+  width: 399px;
   overflow: auto;
   gap: 30px;
   position: relative;
@@ -308,7 +308,6 @@ ol {
   width: 194px;
   height: 34px;
   align-self: flex-end;
-  
 }
 
 .more-button {
